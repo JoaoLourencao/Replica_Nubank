@@ -4,7 +4,7 @@ import { Container, TabsContainer, TabItem, TabText } from './styles';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 
-export default function  Tabs() {
+export default function  Tabs({ tranlateY }) {
     return(
         <Container>
             <TabsContainer>
